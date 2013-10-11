@@ -1,7 +1,7 @@
 {
   "name": "ArrayUtil",
-  "version": "0.0.0",
-  "description": "Array utils for misc. but useful things",
+  "version": "0.0.1",
+  "description": "Array utils for misc. but useful things, so far just compares arrays",
   "main": "./lib/util",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
