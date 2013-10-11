@@ -1,5 +1,5 @@
 {
-  "name": "ArrayUtil",
+  "name": "array-util",
   "version": "0.0.1",
   "description": "Array utils for misc. but useful things, so far just compares arrays",
   "main": "./lib/util",
@@ -14,8 +14,13 @@
     "array",
     "equals",
     "compare",
-    "util"
+    "util",
+    "toObject"
   ],
+  "devDependencies":{
+    "mocha":"*",
+    "better-assert":"*"
+  }
   "author": "web-mech",
   "license": "BSD"
 }
