@@ -1,0 +1,21 @@
+{
+  "name": "ArrayUtil",
+  "version": "0.0.0",
+  "description": "Array utils for misc. but useful things",
+  "main": "./lib/util",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/web-mech/ArrayUtil.git"
+  },
+  "keywords": [
+    "array",
+    "equals",
+    "compare",
+    "util"
+  ],
+  "author": "web-mech",
+  "license": "BSD"
+}
