@@ -1,6 +1,6 @@
 {
   "name": "array-util",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Array utils for misc. but useful things, so far just compares arrays",
   "main": "./lib/util",
   "scripts": {
