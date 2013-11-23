@@ -1,13 +1,12 @@
-var assert = require('assert');
-var bassert = require('better-assert');
-
+require('assert');
 require('../lib/util.js');
+var assert = require('better-assert');
 
 describe('Array', function(){
 	describe('toObject()',function(){
 		//really simple test that tests the type, more to come as object-util project develops
 		it("Array should represent an object after calling toObject",function(){
-			bassert(typeof [2,2].toObject() == 'object');
+			assert(typeof [2,2].toObject() == 'object');
 		});
 	});
 });

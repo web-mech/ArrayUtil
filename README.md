@@ -3,12 +3,16 @@ ArrayUtil
 
 Array utils for misc. but useful things
 
--Merge
+-merge
 
--Equals (Compare)
+-equals (Compare)
 
--Shuffle
+-shuffle
 
 -toObject
 
--Unique
+-unique
+
+-range
+
+-valueRange

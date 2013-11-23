@@ -1,0 +1,29 @@
+{
+  "name": "array-util",
+  "version": "0.0.4",
+  "homepage": "https://github.com/web-mech/ArrayUtil",
+  "authors": [
+    "Mike P <webmech@gmail.com>"
+  ],
+  "description": "Javascript Array Helpers",
+  "main": "./lib/util.js",
+  "keywords": [
+    "compare",
+    "toObject",
+    "equals",
+    "array",
+    "util",
+    "shuffle",
+    "unique",
+    "merge",
+    "query"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

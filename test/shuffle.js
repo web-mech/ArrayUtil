@@ -1,7 +1,6 @@
-var assert = require('assert');
-var bassert = require('better-assert');
-
+require('assert');
 require('../lib/util.js');
+var assert = require('better-assert');
 
 describe('Array', function(){
 	describe('suffle()',function(){
@@ -9,11 +8,11 @@ describe('Array', function(){
 		it("Array should be a shuffled representation of itself after calling shuffle",function(){
 			var oarray = [0,1,2,3,4];
 			
-			bassert([0,1,2,3,4].equals(oarray));
+			assert([0,1,2,3,4].equals(oarray));
 
 			oarray.shuffle();
 
-			bassert([0,1,2,3,4].equals(oarray) === false);
+			assert([0,1,2,3,4].equals(oarray) === false);
 		});
 	});
 });
