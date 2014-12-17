@@ -1,7 +1,8 @@
 require('../lib/util.js');
-var assert = require('better-assert');
+var assert = require('chai').assert;
+
 describe('Array', function(){ 
-	describe('Equals',function(){
+	describe('#equals',function(){
 		it("Should accurately compare two different arrays with the same properties and pass",function(){
 			assert([2,2].equals([2,2]));
 		});
