@@ -1,6 +1,4 @@
-require('assert');
 require('../lib/util.js');
-
 var assert = require('better-assert');
 
 
