@@ -1,18 +1,24 @@
 ArrayUtil
 =========
+Array utils to make doing things with arrays easier.
 
-Array utils for misc. but useful things
+###Array.prototype.merge
+>Uniquely merge two arrays. This only works with elements that are primitives
 
--merge
+###Array.prototype.equals
+>Quick and easy truthy comparison of two arrays.
 
--equals (Compare)
+###Array.prototype.toObject
+>Convert an array to an array like object.
 
--shuffle
+###Array.prototype.shuffle
+>Shuffle the elements within an array.
 
--toObject
+###Array.prototype.unique
+>Eliminate duplicate elements within an array.
 
--unique
+###Array.prototype.group
+>Create multi-dimensional arrays based on element object properties.
 
--range
 
--valueRange
+
