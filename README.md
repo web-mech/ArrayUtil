@@ -3,7 +3,7 @@ ArrayUtil
 Array utils to make doing things with arrays easier.
 
 ###Array.prototype.merge
->Uniquely merge two arrays. This only works with elements that are primitives
+>Uniquely merge two arrays (even with object elements).
 
 ###Array.prototype.equals
 >Quick and easy truthy comparison of two arrays.
