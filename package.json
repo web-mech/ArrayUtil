@@ -4,7 +4,7 @@
   "description": "Array utils for misc. but useful things, so far just compares arrays",
   "main": "./lib/util",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha -R spec -t 50000"
   },
   "repository": {
     "type": "git",
@@ -17,9 +17,9 @@
     "util",
     "toObject"
   ],
-  "devDependencies":{
-    "mocha":"*",
-    "better-assert":"*"
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.0.1"
   },
   "author": "web-mech",
   "license": "BSD"
